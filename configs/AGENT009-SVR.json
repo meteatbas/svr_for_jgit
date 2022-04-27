@@ -1,4 +1,0 @@
-{
-  "bar" : [ "test1", "test2" ],
-  "rule" : "${bar}.size() == 3"
-}
