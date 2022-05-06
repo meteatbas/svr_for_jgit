@@ -1,12 +1,12 @@
 {
-  "instanceId" : {
+  "bar" : {
     "configValueCount" : "LIST",
-    "configValueType" : "BOOLEAN",
-    "displayName" : "dd",
-    "description" : "The name of the instance. Should be unique per installation",
-    "sectionName" : "General",
+    "configValueType" : "CUSTOM",
+    "displayName" : "is CallListening Enabled",
+    "description" : "Enables CallListening, Capturer will send CallStarted/CallEnded message to CallListen Host:port",
+    "sectionName" : "CallListening",
     "encrypted" : false,
-    "rule" : "${instanceId} != null",
+    "rule" : "${bar}.?[#this.get('test1') eq 0].size() == 1 and ${bar}.?[#this.get('test2') eq 'test'].size() == 1",
     "restartRequired" : null,
     "defaultValue" : null
   }
