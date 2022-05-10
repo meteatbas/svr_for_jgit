@@ -31,7 +31,12 @@
   "maxExecutionThreadCountPerActor" : "40",
   "maxProcessQueueSize" : "1000",
   "maxProcessThreadCount" : "100",
-  "maxRestCallDurationInMinutes" : "",
+  "maxRestCallDurationInMinutes" : {
+    "configValueType" : "LONG",
+    "configValueCount" : "SINGLE",
+    "valueAsJson" : "",
+    "encrypted" : false
+  },
   "mediaAttachmentTarget" : "\"alcatel\"",
   "minRemoveExpiredCallPartyContextInHours" : "24",
   "preferCapturerCallIdForCtiLookup" : "false",
@@ -40,7 +45,12 @@
   "resourceListenPort" : "28002",
   "restAccessToken" : null,
   "screenRecordingUserDataFilter" : null,
-  "voiceAdminBaseUri" : "/",
+  "voiceAdminBaseUri" : {
+    "configValueType" : "STRING",
+    "configValueCount" : "SINGLE",
+    "valueAsJson" : "/",
+    "encrypted" : false
+  },
   "voiceAdminHost" : "\"127.0.0.1\"",
   "voiceAdminPort" : "28015",
   "webServerBaseUri" : "\"/voiceserver/\"",
