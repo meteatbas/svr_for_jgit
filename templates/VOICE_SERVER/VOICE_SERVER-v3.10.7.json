@@ -6,7 +6,7 @@
     "description" : "Enables CallListening, Capturer will send CallStarted/CallEnded message to CallListen Host:port",
     "sectionName" : "CallListening",
     "encrypted" : false,
-    "rule" : "#bar.?[#this.get('test2') eq 'test'].size() == 1",
+    "rule" : "${bar}.?[#this.get('test2') eq 'test'].size() == 1",
     "restartRequired" : null,
     "defaultValue" : null
   }
