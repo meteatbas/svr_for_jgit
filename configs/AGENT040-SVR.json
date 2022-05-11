@@ -1,7 +1,9 @@
 {
   "spring" : [ {
-    "restart" : {
-      "enabled" : false
+    "devtools" : {
+      "restart" : {
+        "enabled" : false
+      }
     },
     "datasource" : [ {
       "type" : "com.zaxxer.hikari.HikariDataSource",
