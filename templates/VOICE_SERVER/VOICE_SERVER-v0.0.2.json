@@ -2,8 +2,8 @@
   "spring" : {
     "configValueCount" : "LIST",
     "configValueType" : "CUSTOM",
-    "displayName" : "is CallListening Enabled",
-    "description" : "Enables CallListening, Capturer will send CallStarted/CallEnded message to CallListen Host:port",
+    "displayName" : "Call Listen Port",
+    "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
     "sectionName" : "CallListening",
     "encrypted" : false,
     "rule" : "${spring}.?[#this.get('devtools').get('restart').get('enabled') eq false].size() == 1",
