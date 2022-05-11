@@ -6,7 +6,7 @@
     "description" : "Enables CallListening, Capturer will send CallStarted/CallEnded message to CallListen Host:port",
     "sectionName" : "CallListening",
     "encrypted" : false,
-    "rule" : "${spring}.?[#this.get('restart').get('enabled') eq false].size() == 1",
+    "rule" : "${spring}.?[#this.get('restart').get('devtools').get('enabled') eq false].size() == 1",
     "restartRequired" : null,
     "defaultValue" : null
   }
