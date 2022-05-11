@@ -8,7 +8,7 @@
     "datasource" : [ {
       "type" : "com.zaxxer.hikari.HikariDataSource",
       "url" : "jdbc:sqlserver://localhost:1433;database=sis-voice",
-      "username" : "sa",
+      "username" : "saf",
       "password" : "hatalı"
     } ]
   } ]
