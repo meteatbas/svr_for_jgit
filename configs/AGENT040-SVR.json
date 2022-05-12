@@ -6,7 +6,7 @@
       }
     },
     "datasource" : [ {
-      "type" : "dd",
+      "type" : "ddd",
       "url" : "jdbc:sqlserver://localhost:1433;database=sis-voice",
       "username" : "saf",
       "password" : "hataldı"
