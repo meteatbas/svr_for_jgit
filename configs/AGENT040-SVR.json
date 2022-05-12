@@ -6,10 +6,10 @@
       }
     },
     "datasource" : [ {
-      "type" : "ddd",
+      "type" : "dd",
       "url" : "jdbc:sqlserver://localhost:1433;database=sis-voice",
-      "username" : "sa",
-      "password" : "sa"
+      "username" : "saf",
+      "password" : "hataldı"
     } ]
   } ]
 }
