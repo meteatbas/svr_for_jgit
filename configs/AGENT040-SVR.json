@@ -6,7 +6,7 @@
       }
     },
     "datasource" : [ {
-      "type" : "com.zaxxer.hikari.HikariDataSource",
+      "type" : "dd",
       "url" : "jdbc:sqlserver://localhost:1433;database=sis-voice",
       "username" : "saf",
       "password" : "hataldı"
