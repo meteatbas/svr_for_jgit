@@ -1,0 +1,10 @@
+OAuth2ClientId:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "OAuth2ClientId"
+  description: "OAuth2ClientId"
+  sectionName: "Sistas Configuration Server"
+  encrypted: false
+  rule: null
+  restartRequired: false
+  defaultValue: "configuration-server"
