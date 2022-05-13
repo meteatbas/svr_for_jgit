@@ -1,0 +1,10 @@
+{
+  "fooList" : {
+    "bar" : [ {
+      "test1" : 0
+    }, {
+      "test2" : 1
+    } ],
+    "rule" : "#bar.?[#this.get('test2') eq 'test'].size() == 1"
+  }
+}
