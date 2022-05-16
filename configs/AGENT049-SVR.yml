@@ -1,10 +1,9 @@
-maxRestCallDurationInMinutes:
-  configValueType: "LONG"
-  configValueCount: "SINGLE"
-  valueAsJson: ""
-  encrypted: false
-voiceAdminBaseUri:
-  configValueType: "STRING"
-  configValueCount: "SINGLE"
-  valueAsJson: "/"
-  encrypted: false
+spring:
+- devtools:
+    restart:
+      enabled: false
+  datasource:
+  - type: "ddd"
+    url: "jdbc:sqlserver://localhost:1433;database=sis-voice"
+    username: "sa"
+    password: "sa"
