@@ -9,7 +9,7 @@
       "type" : "ddd",
       "url" : "jdbc:sqlserver://localhost:1433;database=sis-voice",
       "username" : "sa",
-      "password" : "sa"
+      "password" : "trrr"
     } ]
   } ]
 }
