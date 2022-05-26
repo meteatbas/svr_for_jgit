@@ -1,0 +1,13 @@
+{
+  "instanceId" : {
+    "configValueCount" : "LIST",
+    "configValueType" : "BOOLEAN",
+    "displayName" : "dd",
+    "description" : "The name of the instance. Should be unique per installation",
+    "sectionName" : "General",
+    "encrypted" : false,
+    "rule" : "${instanceId} != null",
+    "restartRequired" : null,
+    "defaultValue" : null
+  }
+}
