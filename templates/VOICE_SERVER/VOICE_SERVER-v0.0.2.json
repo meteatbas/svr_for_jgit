@@ -6,7 +6,7 @@
     "description" : "callListeningGatewayList skip CTI Lookup and Extension Lookup for IP List",
     "sectionName" : "CallListening",
     "encrypted" : false,
-    "rule" : "${spring}.?[#this.get('devtools').get('restart').get('enabled') eq false].size() == 1 and ${spring}.?[['datasource'][0]['password'] eq 'sa'].size() == 1",
+    "rule" : "${spring}.?[#this.get('devtools').get('restart').get('enabled') eq false].size() == 1 and ${spring}.?[#this.get('datasource')[0]['password'] eq 'sa'].size() == 1",
     "restartRequired" : null,
     "defaultValue" : null
   }
