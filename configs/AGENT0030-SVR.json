@@ -1,9 +1,0 @@
-{
-  "bar" : [ {
-    "test1" : 0
-  }, {
-    "test2" : "test"
-  }, {
-    "test3" : null
-  } ]
-}
